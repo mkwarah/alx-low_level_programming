@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	int l;
+	int n;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	/*l % 10;*/
-	if (l > 5)
+	if (n > 5)
 	{
-		printf("%d is greater tahn 5\n", l);
+		printf("%d is greater tahn 5\n", n);
 	}
-	else if (l == 0)
+	else if (n == 0)
 	{
-		printf("%d is 0\n", l);
+		printf("%d is 0\n", n);
 	}
 	else
 	{
-		printf("%d is less than 6 and not 0\n", l);
+		printf("%d is less than 6 and not 0\n", n);
 	}
 	return (0);
