@@ -2,7 +2,8 @@
 #include <time.h>
 #include <stdio.h>
 /**
- * main - checking numbers if they are above 5
+ * main - checking numbers if they are above 5 or equal to 0 or less than 6
+ *
  * Return: Returns 0
  */
 int main(void)
