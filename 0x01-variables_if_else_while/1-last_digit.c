@@ -7,21 +7,21 @@
  */
 int main(void)
 {
-	int n, l;
+	int l;
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	l % 10;
+	/*l % 10;*/
 	if (l > 5)
 	{
-		printf("The last digit of %d is %d and is greater tahn 5\n", n, l);
+		printf("%d is greater tahn 5\n", l);
 	}
 	else if (l == 0)
 	{
-		printf("The last digit of %d is %d  and is 0\n", n, l);
+		printf("%d is 0\n", l);
 	}
 	else
 	{
-		printf("The last digit of %d is %d and is less than 6 and not 0\n", n, l);
+		printf("%d is less than 6 and not 0\n", l);
 	}
 	return (0);
