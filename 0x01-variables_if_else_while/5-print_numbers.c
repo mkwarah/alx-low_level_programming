@@ -3,7 +3,7 @@
  * main - printing numbers form 0 to 9
  * Return: 0
  */
-inti main(void)
+int main(void)
 {
 	int i;
 
