@@ -9,9 +9,9 @@ int main(void)
 
 	for (i = 48; i < 58; i++)
 	{
-		putchar(n);
+		putchar(i);
 	}
-	for (n != 57)
+	for (i != 57)
 	{
 		putchar(',');
 		putchar(' ');
