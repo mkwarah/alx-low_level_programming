@@ -24,6 +24,15 @@ char *string_nconcat(char *s1, char *s2, unsigned int n)
 			;
 	}
 	if (s2 == NULL)
+	{
+		y = 0;
+	}
+	else
+	{
+		for (y = 0; s2[y]; ++y)
+			;
+	}
+	if (y > n)
 		y = n;
 	s = malloc(sizeof(char) * (x + y + 1));
 	if (s == NULL)
