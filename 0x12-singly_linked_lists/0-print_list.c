@@ -4,10 +4,10 @@
 #include "lists.h"
 
 /**
- * print_list - check the code for Holberton School students.
- * @h: name of the list
- * Return: the number of nodes.
- */
+  * print_list - check the code for Holberton School students.
+  * @h: name of the list
+  * Return: the number of nodes.
+  */
 size_t print_list(const list_t *h)
 {
 	int count = 0;
@@ -18,7 +18,7 @@ size_t print_list(const list_t *h)
 		{
 			printf("[0] (nil)\n");
 		}
-		else 
+		else
 		{
 			printf("[%d] %s\n", h->len, h->str);
 		}
