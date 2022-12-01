@@ -12,7 +12,7 @@ unsigned long int _power(unsigned int base, unsigned int pow)
 
 	num = 1;
 	for (i = 1; i <= pow; i++)
-		num *= basenary(unsigned long int n);
+		num *= base;
 	return (num);
 }
 /**
