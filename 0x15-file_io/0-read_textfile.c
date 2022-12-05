@@ -1,6 +1,6 @@
 /**
   * File: 0-read_textfile.c
-  * Auth: Dr Marcus.
+  * Auth: Herrings
   */
 #include "main.h"
 #include <stdlib.h>
@@ -12,7 +12,7 @@
   * function should read and print.
   *
   * Return: If the function fails or filename is NULL - 0.
-  *  O/w - the actual number of bytes the function can read and print.
+  * O/w - the actual number of bytes the function can read and print.
   */
 ssize_t read_textfile(const char *filename, size_t letters)
 {
